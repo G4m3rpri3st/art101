@@ -1,0 +1,16 @@
+#my-portrait {
+  width: 368px;
+  height: 491px;
+  margin-left: 15px;
+}
+
+#content {
+  background-color: #FFFCE3;
+  width: 800px;
+  min-height: 500px;
+  padding: 15px;
+  margin: 15px;
+  margin-left: 500px;
+  border: dashed 2px #000000;
+  font-size: 18px;
+}
