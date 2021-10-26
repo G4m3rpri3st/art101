@@ -1,0 +1,16 @@
+#car {
+  width: 320px;
+  length: 240px;
+}
+
+#content {
+  font-size: 24px;
+  font-family: Gabriola;
+  color: teal;
+}
+
+#js {
+  font-size: 18px;
+  color: red;
+  font-family: Papyrus, fantasy;
+}
