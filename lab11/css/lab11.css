@@ -1,0 +1,21 @@
+#pic {
+  width: 320px;
+  length: 240px;
+}
+
+#content {
+  font-size: 24px;
+  font-family: Gabriola;
+  color: green;
+}
+
+#output {
+  font-size: 18px;
+  color: blue;
+  font-family: Papyrus, fantasy;
+}
+
+.special {
+  color: blue;
+  background-color: #cdcfbc;
+}
