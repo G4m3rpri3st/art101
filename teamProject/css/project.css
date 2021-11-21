@@ -1,0 +1,83 @@
+body {
+  background-color: #a9e2f5;
+  align-content: center;
+}
+
+#content {
+  background-color: #FFFCE3;
+  width: 800px;
+  min-height: 500px;
+  padding: 15px;
+  margin: auto;
+  border: solid 1px #000000;
+  font-size: 18px;
+}
+
+#solar {
+  color: #FCC014;
+}
+
+#wind {
+  color: #446D5D;
+}
+
+#nuclear {
+  color: #23EB19;
+}
+
+#authors {
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+#Logan {
+  border-radius: 50%;
+}
+
+#Dylan {
+  border-radius: 50%;
+}
+
+#Akilah {
+  border-radius: 50%;
+}
+
+#Nkem {
+  border-radius: 50%;
+}
+
+.expand {
+  display: none;
+}
+
+.solarL1{
+  display: none;
+}
+
+.solarL2{
+  display: none;
+}
+
+.windL1{
+  display: none;
+}
+
+.windL2{
+  display: none;
+}
+
+.nuclearL1{
+  display: none;
+}
+
+.nuclearL2{
+  display: none;
+}
