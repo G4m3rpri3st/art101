@@ -4,35 +4,26 @@
 * @since  11.29.2021
 * License: Public Domain.
 */
+var myUrl = "http://numberapi.com/random/year"
 
-let oneLongString = "";
-
-for (let i = 1; i < 201; i++) {
-
-  if ((i%3 == 0) && (i%5 == 0) && (i%7 == 0)){
-    oneLongString += i + " FizzBuzzBoom!<br>";
-  }
-  else if ((i%3 == 0) && (i%5 == 0)){
-    oneLongString += i + " FizzBuzz!<br>";
-  }
-  else if ((i%3 == 0) && (i%7 == 0)){
-    oneLongString += i + " FizzBoom!<br>";
-  }
-  else if ((i%5 == 0) && (i%7 == 0)){
-    oneLongString += i + " BuzzBoom!<br>";
-  }
-  else if ((i%3 == 0)){
-    oneLongString += i + " Fizz!<br>";
-  }
-  else if ((i%5 == 0)){
-    oneLongString += i + " Buzz!<br>";
-  }
-  else if ((i%7 == 0)){
-    oneLongString += i + " Boom!<br>";
-  }
-  else{
-    oneLongString += i + " <br>";
-  }
+function callAjax() {
+// Using the core $.ajax() method
+$.ajax({
+    // API endpoint
+    url: myUrl,
+    // POST or GET request
+    type: "GET",
+})
+// If the request succeeds
+// data is passed back
+.done(function(data) {
+    console.log("Success:", data);
+    $("#output").html(data);
+})
+// If the request fails
+.fail(function(request,error) {
+    console.log(request, error);
+})
 }
-
-$("#output").html(oneLongString);
+// calls AJAX on button click
+$("#activate").click(callAjax);
