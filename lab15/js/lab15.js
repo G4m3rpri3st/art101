@@ -27,5 +27,5 @@ $.ajax({
     console.log(request, error);
 })
 }
-// calls AJAX on button click
+// calls AJAX on button click, displays a Kanye quote
 $("#activate").click(callAjax);
